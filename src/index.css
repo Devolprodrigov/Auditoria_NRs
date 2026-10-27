@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-rrv-navy: #152744;
+  --color-rrv-navy-dark: #0d1a2d;
+  --color-rrv-navy-light: #1f3960;
+  --color-rrv-green: #74b826;
+  --color-rrv-green-dark: #5e971d;
+  --color-rrv-green-light: #8dd633;
+}
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+  
+  .font-mono, .tabular-nums {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+    font-size: 10pt;
+  }
+  .print-break-inside-avoid {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .print-shadow-none {
+    box-shadow: none !important;
+    border: 1px solid #cbd5e1 !important;
+  }
+  input, select, textarea {
+    border-color: #94a3b8 !important;
+    background: transparent !important;
+    color: #0f172a !important;
+  }
+}

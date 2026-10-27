@@ -1,0 +1,8 @@
+{
+  "name": "RRV Consultoria - Sistema de Auditoria e Laudos NR",
+  "description": "Plataforma oficial da RRV Consultoria em Segurança do Trabalho para realização de auditorias por Normas Regulamentadoras (NR-12, NR-10, NR-06, NR-17, NR-23, NR-35, NR-33), evidências fotográficas, emissão de laudo em PDF e consultoria técnica com IA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
